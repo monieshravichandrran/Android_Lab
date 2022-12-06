@@ -42,8 +42,13 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         int i = 1;
-                        while(i++<100){
-                            banner.animate().translationX(20f);
+                        while(i++<1000){
+                            banner.animate().translationX(400f).setDuration(1200);
+                            banner.animate().translationX(-400f).setDuration(1200);
+                            coords.animate().translationX(400f).setDuration(1200);
+                        }
+                        while(i++<1000){
+                            banner.animate().translationX(-400f).setDuration(1200);
                         }
                     }
                 });
@@ -62,8 +67,10 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         int i = 1;
-                        while(i++<100) {
-                            banner.animate().rotationXBy(45f);
+                        while(i++<1000) {
+                            banner.animate().rotationXBy(45f).setDuration(1000);
+                            coords.animate().rotationXBy(30f).setDuration(1000);
+
                         }
                     }
                 });
