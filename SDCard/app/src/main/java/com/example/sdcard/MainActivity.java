@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     FileWriter fw = new FileWriter(SDCard.getAbsolutePath() + "/" + fileContent.getText().toString().trim(),false);
                     fw.write(fileContent.getText().toString());
+                    fw.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
