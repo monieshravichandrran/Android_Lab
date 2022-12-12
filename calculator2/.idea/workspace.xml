@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3dc90c0-a8c4-49be-a4f5-98663bd49c01" name="Changes" comment="" />
+    <list default="true" id="ebf374c0-57b5-4752-8315-529520d37c47" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +27,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IoxIoXrwApI61I40wUP8kchwGW" />
+  <component name="ProjectId" id="2Ip6xP1PT1e552mwsy2PLGsy34e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +41,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="sdcardprac.app.main" />
+      <module name="calculator.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -103,11 +103,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3dc90c0-a8c4-49be-a4f5-98663bd49c01" name="Changes" comment="" />
-      <created>1670861659694</created>
+      <changelist id="ebf374c0-57b5-4752-8315-529520d37c47" name="Changes" comment="" />
+      <created>1670866423261</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670861659694</updated>
+      <updated>1670866423261</updated>
     </task>
     <servers />
   </component>
