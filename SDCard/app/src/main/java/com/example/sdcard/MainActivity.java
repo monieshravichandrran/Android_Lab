@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             writeFileContent = findViewById(R.id.writeFileContent);
             readFileContent = findViewById(R.id.readFileContent);
 
+
             read = findViewById(R.id.readButton);
             write = findViewById(R.id.writeButton);
 
