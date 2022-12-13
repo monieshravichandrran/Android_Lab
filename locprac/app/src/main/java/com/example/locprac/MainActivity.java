@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     // for ActivityCompat#requestPermissions for more details.
                     return;
                 }
-                lmg.requestLocationUpdates(LocationManager.GPS_PROVIDER, 15, 0, lis);
+                lmg.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10, 10, lis);
             }
         });
 

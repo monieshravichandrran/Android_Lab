@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
             read = findViewById(R.id.readButton);
             write = findViewById(R.id.writeButton);
 
+            read.animate().scaleX(0.5f).setDuration(1000);
+            //read.animate().rotationYBy(360).setDuration(5000);
+            for(int i=0;i<5;i++)
+            read.animate().rotationYBy(180).setDuration(5000);
+
 //        File with name
             sdcard = getExternalFilesDir("SDdirectory");
 
